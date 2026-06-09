@@ -10,6 +10,7 @@ let precio3
 let colorFavorito
 let comidaFavorita
 let numeroFavorito
+let favorito="Mi comida favorita es "+comidaFavoritame+" gusta el color "+colorFavorito+ "y mi número favorito es "+numeroFavorito
 //Asignar valor
 numero1 = 10
 numero2= 30
@@ -19,9 +20,9 @@ edadAlumno =67
 precio1=300
 precio2=400
 precio3=500
-colorFavorito=
-comidaFavorita=
-numeroFavorito=
+colorFavorito=azul
+comidaFavorita=canelones.schmidt
+numeroFavorito=24
 //Declarar y asignar al mismo tiempo
 suma = numero1 + numero2
 resta = numero2 - numero1
@@ -35,4 +36,11 @@ alert("el resultado de la suma es:" + suma);
 alert("el resultado de la resta es:" + resta);
 console.log("El alumno:"+ nombreAlumno + apellidoAlumno +" tiene "+ edadAlumno + " años");
 console.log("el total a pagar es:" + total);
+console.log(favorito)
+//ejerciocio7
+let pais= "argentina"
+console.log(pais)
+pais="brasil"
+console.log(pais)
+
 
