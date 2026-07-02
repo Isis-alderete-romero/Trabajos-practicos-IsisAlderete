@@ -1,3 +1,67 @@
 body{
     background-color: cornflowerblue;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#div1{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+#parrafo1{
+    width: 100%;
+    color: rgb(26, 17, 78);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#boton1{
+    background-color: rgb(18, 38, 58);
+    color: floralwhite;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+#boton2{
+    background-color: rgb(18, 38, 58);
+    color: floralwhite;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+#boton3{
+    background-color: rgb(18, 38, 58);
+    color: floralwhite;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+#boton4{
+    background-color: rgb(18, 38, 58);
+    color: floralwhite;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+#boton1:hover{
+    background-color: rgb(31, 46, 184);
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+#boton2:hover{
+    background-color: rgb(31, 46, 184);
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+#boton3:hover{
+    background-color: rgb(31, 46, 184);
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+#boton4:hover{
+    background-color: rgb(31, 46, 184);
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
