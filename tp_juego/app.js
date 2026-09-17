@@ -17,5 +17,33 @@ btn1.onclick = function () {
         text1.style.color = 'red'
 
     }
-}
+    if (numero > 40) {
+        text1.style.color = 'yellow'
 
+    }
+    if (numero > 50) {
+        text1.style.color = 'orange'
+
+    }
+    if (numero > 60) {
+        text1.style.color = 'pink'
+
+    }
+    if (numero > 70) {
+        text1.style.color = 'purple'
+
+    }
+    if (numero > 80) {
+        text1.style.color = 'brown'
+
+    }
+    if (numero > 90) {
+        text1.style.color = 'grey'
+
+    }
+    if (numero > 100) {
+        text1.style.color = 'black'
+
+    }
+    
+}
