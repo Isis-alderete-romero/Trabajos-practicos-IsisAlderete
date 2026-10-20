@@ -13,4 +13,7 @@ utiles.unshift("Cartuchera")
 console.log (utiles)
 console.log(utiles[utiles.length - 1])
 utiles.pop()
+console.log (utiles)
+utiles.shift()
+//Ejercicio2
 
