@@ -36,4 +36,11 @@ productos.pop()
 console.log(productos(8))
 productos.pop()
 console.log(productos)
+console.log(productos(0))
+productos.shift()
+console.log(productos)
+console.log(productos[productos.length - 1])
 
+//Ejercicio 3
+let productos2 = ["Teclado","Mouse","Monitor","Auriculares","Webcam","Parlantes"]
+let pos = productos2.indexOf("Mouse")
