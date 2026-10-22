@@ -43,5 +43,11 @@ console.log(productos[productos.length - 1])
 
 //Ejercicio 3
 let productos2 = ["Teclado","Mouse","Monitor","Auriculares","Webcam","Parlantes"]
-let pos1 = productos2.indexOf("Mouse")
-let pos = productos2.indexOf("Monitor")
+console.log(productos2[productos2.indexOf("Mouse")])
+console.log(productos2[productos2.indexOf("Monitor")])
+console.log(productos2[productos2.indexOf("Webcam")])
+console.log(productos2[productos2.indexOf("Impresora")])
+let pos = productos2.indexOf("Teclado")
+
+
+
