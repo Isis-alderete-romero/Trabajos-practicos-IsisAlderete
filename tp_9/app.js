@@ -46,8 +46,20 @@ let productos2 = ["Teclado","Mouse","Monitor","Auriculares","Webcam","Parlantes"
 console.log(productos2[productos2.indexOf("Mouse")])
 console.log(productos2[productos2.indexOf("Monitor")])
 console.log(productos2[productos2.indexOf("Webcam")])
-console.log(productos2[productos2.indexOf("Impresora")])
+
 let pos = productos2.indexOf("Teclado")
+if (pos == false) {
+    console.log("Teclado no esta registrado")
+} else {
+    console.log("Teclado esta registrado")
+}
+
+let pos1 = productos2.indexOf("Impresora")
+if (pos1 == false) {
+    console.log("Impresora no esta registrado")
+} else {
+    console.log("Impresora esta registrado")
+}
 
 
 
