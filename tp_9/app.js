@@ -60,6 +60,14 @@ if (pos1 == false) {
 } else {
     console.log("Impresora esta registrado")
 }
+productos2.indexOf("Impresora")
 
+console.log(productos2.length)
 
-
+//Ejercicio 4
+let videojuegos = ["Minecraft", "Pokémon Cristal","Super Mario", "The Legend of Zelda","Sonic"]
+console.log(videojuegos)
+console.log(videojuegos.length)
+videojuegos.push("Animal Crossing")
+videojuegos.push("Pokémon Rojo")
+console.log(videojuegos)
