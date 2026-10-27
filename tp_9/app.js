@@ -71,3 +71,7 @@ console.log(videojuegos.length)
 videojuegos.push("Animal Crossing")
 videojuegos.push("Pokémon Rojo")
 console.log(videojuegos)
+videojuegos.unshift("Tetris")
+videojuegos.unshift("Pac-Man")
+console.log(videojuegos)
+videojuegos
