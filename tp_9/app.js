@@ -74,4 +74,32 @@ console.log(videojuegos)
 videojuegos.unshift("Tetris")
 videojuegos.unshift("Pac-Man")
 console.log(videojuegos)
-videojuegos
+let pos3 =videojuegos.indexOf("Pokémon Cristal")
+console.log(pos3)
+let pos4 =videojuegos.indexOf("Sonic")
+console.log(pos4)
+let pos5 =videojuegos.indexOf("Fifa")
+console.log(pos5)
+videojuegos.pop()
+console.log(videojuegos)
+console.log(videojuegos.length)
+
+//Ejercicio 5
+let estudiantes = ["Martina","Lucas","Sofía","Tomás","Valentina"]
+console.log(estudiantes)
+estudiantes.push("Agustín")
+estudiantes.push("Camila")
+estudiantes.unshift("Bruno")
+console.log(estudiantes.length)
+let pos6 =estudiantes.indexOf("Sofía")
+console.log(pos6)
+let pos7 =estudiantes.indexOf("Camila")
+console.log(pos7)
+let pos8 =estudiantes.indexOf("Federico")
+console.log(pos8)
+console.log(estudiantes[0])
+estudiantes.shift()
+console.log(estudiantes[7])
+estudiantes.pop()
+
+
