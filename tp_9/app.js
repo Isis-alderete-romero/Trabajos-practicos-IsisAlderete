@@ -101,5 +101,70 @@ console.log(estudiantes[0])
 estudiantes.shift()
 console.log(estudiantes[7])
 estudiantes.pop()
+console.log(estudiantes)
+console.log(estudiantes.length)
+
+//Ejercicio 6
+let tareas = ["Estudiar","Hacer la tarea","Ordenar la habitación","Comprar alimentos"]
+console.log(tareas)
+tareas.push("Pasear al perro")
+tareas.push("Preparar la cena")
+console.log(tareas)
+tareas.unshift("Entregar un trabajo")
+console.log(tareas)
+let pos9 =tareas.indexOf("Estudiar")
+console.log(pos9)
+let pos10 =tareas.indexOf("Preparar la cena")
+console.log(pos10)
+let pos11= tareas.indexOf("Lavar el auto")
+console.log(pos11)
+console.log(tareas[0])
+tareas.shift()
+console.log(tareas[6])
+tareas.pop()
+tareas.push("Leer un libro")
+tareas.unshift("Hacer ejercicio")
+console.log(tareas)
+console.log(tareas.length)
+
+//Ejercicio7
+let peliculas = ["Toy Story", "Shrek","Buscando a Nemo","Los Increíbles", "Ratatouille"]
+console.log(peliculas)
+console.log(peliculas.length)
+peliculas.push("Cars")
+peliculas.push("Monsters, Inc.")
+console.log(peliculas)
+peliculas.unshift("Intensamente")
+peliculas.unshift("Coco")
+console.log(peliculas)
+let pos12=peliculas.indexOf("Shrek")
+console.log(pos12)
+let pos13=peliculas.indexOf("Coco")
+console.log(pos13)
+let pos14=peliculas.indexOf("Frozen")
+console.log(pos14)
+let pos15=peliculas.indexOf("Cars")
+console.log(pos15)
+if (pos15=true) {
+    console.log("Esta en la lista")
+} else {
+    console.log("No esta en la lista")  
+}
+console.log(peliculas[9])
+peliculas.pop()
+console.log(utiles[0])
+peliculas.shift()
+peliculas.push("Up")
+let pos16=peliculas.indexOf("Up")
+console.log(pos1)
+console.log(peliculas)
+console.log(peliculas.length)
+
+//Ejercicio 8
+let productosTienda = [ "Celular","Notebook","Tablet","Teclado", "Mouse"]
+console.log(productosTienda)
+console.log(productosTienda.length)
+productosTienda.push("Monitor")
+productosTienda.push("Impresora")
 
 
