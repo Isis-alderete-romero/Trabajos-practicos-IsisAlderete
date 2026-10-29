@@ -156,7 +156,7 @@ console.log(utiles[0])
 peliculas.shift()
 peliculas.push("Up")
 let pos16=peliculas.indexOf("Up")
-console.log(pos1)
+console.log(pos16)
 console.log(peliculas)
 console.log(peliculas.length)
 
@@ -166,5 +166,17 @@ console.log(productosTienda)
 console.log(productosTienda.length)
 productosTienda.push("Monitor")
 productosTienda.push("Impresora")
+productosTienda.unshift("Cámara web")
+productosTienda.unshift("Micrófono")
+console.log(productosTienda)
+console.log(productosTienda.length)
+let pos17 = productosTienda.indexOf("Notebook")
+console.log(pos17)
+let pos18 = productosTienda.indexOf("Micrófono")
+console.log(pos18)
+
+
+
+
 
 
