@@ -174,6 +174,17 @@ let pos17 = productosTienda.indexOf("Notebook")
 console.log(pos17)
 let pos18 = productosTienda.indexOf("Micrófono")
 console.log(pos18)
+let pos19 = productosTienda.indexOf("Parlantes")
+console.log(pos19)
+console.log(productosTienda[7])
+productosTienda.pop()
+console.log(productosTienda[0])
+productosTienda.shift()
+console.log(productosTienda)
+productosTienda.pup("Parlantes")
+productosTienda.unshift("Auriculares")
+console.log(productosTienda)
+console.log(pos19)
 
 
 
