@@ -181,13 +181,21 @@ productosTienda.pop()
 console.log(productosTienda[0])
 productosTienda.shift()
 console.log(productosTienda)
-productosTienda.pup("Parlantes")
+productosTienda.push("Parlantes")
 productosTienda.unshift("Auriculares")
 console.log(productosTienda)
-console.log(pos19)
-
-
-
+let pos20 = productosTienda.indexOf("Parlantes")
+console.log(pos20)
+let pos21 = productosTienda.indexOf("Auriculares")
+console.log(pos21)
+let pos22 = productosTienda.indexOf("Celular")
+console.log(pos22)
+console.log(productosTienda[8])
+productosTienda.pop()
+console.log(productosTienda[0])
+productosTienda.shift()
+console.log(productosTienda)
+console.log(productosTienda.length)
 
 
 
