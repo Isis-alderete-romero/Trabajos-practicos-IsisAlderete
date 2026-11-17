@@ -59,3 +59,22 @@ btn3.onclick = function () {
 
 //Ejercicio 4
 
+//Ejercio 5
+let btn5= document.querySelector ("#btn5")
+let text5= document.querySelector ("#p5")
+let input5= document.querySelector ("#inpu5")
+
+function saludo(nombre) {
+    return "Hola" + nombre + "¿como estas?"
+}
+
+btn5.onclick = function () {
+    text5.textContent = menor (input5.value)
+}
+
+//Ejercicio 6
+ function style(params) {
+     
+ }
+
+ //Ejercicio 7
