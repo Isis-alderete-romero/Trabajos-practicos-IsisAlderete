@@ -9,11 +9,11 @@ let input1= document.querySelector ("#input1")
 function mayor(valor1 , valor2) {
    let resultado
    if (valor1 > valor2) {
-       resultado = valor1 + " es mayor que " + valor2
+        return valor1 + " es mayor que " + valor2
+       
    } else {
-    resultado = valor2 + " es mayor que " + valor1
+   return valor2 + " es mayor que " + valor1
    }
-   return resultado
 }
 
 btn1.onclick = function(){
@@ -30,11 +30,32 @@ let input2= document.querySelector ("#input2")
 function menor(valor1 ,valor2) {
     let resultado
     if (valor1 < valor2) {
-        resultado = valor1 + " es menor que " + valor2
+        return valor1 + " es menor que " + valor2
     } else {
-        resultado = valor2 + " es menor que " + valor1
+        return valor2 + " es menor que " + valor1
     }
 }
 btn2.onclick = function () {
     text2.textContent = menor (input2.value , inpu2.value)
 }
+
+//Ejercicio 3
+let btn3= document.querySelector ("#btn3")
+let text3= document.querySelector ("#p3")
+let inpu3= document.querySelector ("#inpu3")
+let input3= document.querySelector ("#input3")
+
+function verificar(valor1 , valor2) {
+    if (valor1 == valor2) {
+        return valor1 + "y" + valor2 + "son iguales"
+    } else {
+        return valor1 + "y" + valor2 + "son diferentes"
+    }
+}
+
+btn3.onclick = function () {
+    text3.textContent = menor (input3.value , inpu3.value)
+}
+
+//Ejercicio 4
+
